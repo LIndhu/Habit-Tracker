@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>✅ Habit Tracker</h1>
+    <p>Build habits, track progress, stay motivated!</p>
+  </header>
+
+  <section class="container">
+    <!-- Habit Input -->
+    <div class="habit-form">
+      <input type="text" id="habitInput" placeholder="Enter a new habit">
+      <button id="addHabitBtn">Add Habit</button>
+    </div>
+
+    <!-- Habits List -->
+    <h2>My Habits</h2>
+    <ul id="habitList"></ul>
+
+    <!-- Progress Bar -->
+    <div class="progress-section">
+      <h3>Daily Progress</h3>
+      <div class="progress-bar">
+        <div id="progress"></div>
+      </div>
+      <p><span id="progressPercent">0</span>% completed</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
